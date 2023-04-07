@@ -1,0 +1,16 @@
+{
+  "name": "convert-xml",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "type": "module",
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
