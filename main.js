@@ -1,11 +1,12 @@
-import * as fs from "fs";
-import convertModel from "./convertModel.js";
+const fs = require("fs");
+const convertModel = require("./convertModel.js");
 
 fs.readFile("./example.txt", "utf8", (err, data) => {
   if (err) {
     console.error(err);
     return;
   }
+
 
   let jsonObj = convertModel.convertTojsonObj(data);
   let xml = convertModel.convertToXML(jsonObj);

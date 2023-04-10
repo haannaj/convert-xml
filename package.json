@@ -6,7 +6,6 @@
     "start": "node main.js",
     "test": "jest"
   },
-  "type": "module",
   "dependencies": {
     "xml-js": "^1.6.11"
   },

@@ -1,4 +1,5 @@
-import * as convert from "xml-js";
+const convert = require("xml-js");
+
 
 const convertModel = {
   convertTojsonObj: function convertTojsonObj(data) {
@@ -88,4 +89,5 @@ const convertModel = {
   },
 };
 
-export default convertModel;
+
+module.exports = convertModel;
