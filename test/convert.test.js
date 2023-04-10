@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-let expectedXMLfile = fs.readFileSync("txtTest.xml", "utf8");
+let expectedXMLfile = fs.readFileSync("test/txtTest.xml", "utf8");
 let convertedXMLfile = fs.readFileSync("convertTxt.xml", "utf8");
 
 describe("Assert file contains expected data", () => {
